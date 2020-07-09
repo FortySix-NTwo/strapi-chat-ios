@@ -3,7 +3,7 @@
 ## Front-End iOS App
 
 > The following high-level documentation is intended to be used,
-> As an overview for the iOS client-side application.
+as an overview for the iOS client-side application.
 
 ### Architectural Design Patterns
 

@@ -19,8 +19,8 @@ class APIManager{
             switch response.result{
             case .success(let data):
                 do{
-                    let json = try JSONSerialization.jsonObject(with: data!, options: [])
-                    print(json)
+                    let jsonData = try JSONSerialization.jsonObject(with: data!, options: [])
+                    print(jsonData)
                 }catch{
                 }
             case .failure(let error):
