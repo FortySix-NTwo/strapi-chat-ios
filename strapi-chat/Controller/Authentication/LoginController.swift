@@ -66,7 +66,10 @@ class LoginController: UIViewController {
     }
 
     @objc func loginListener() {
-        print("Loged In")
+        guard let email = emailTextField.text else { return }
+        guard let password = passwordTextField.text else { return }
+        let user = LoginModel(email: email, password: password)
+        APIManager.instance.login(login: user)
     }
 
     // MARK: @Handlers

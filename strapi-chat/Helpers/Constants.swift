@@ -9,6 +9,6 @@
 import Foundation
 
 let app_id = ""
-let rest_token = ""
 let base_url = "http://localhost:1337"
 let register_url = "\(base_url)/auth/local/register"
+let login_url = "\(base_url)/auth/local"

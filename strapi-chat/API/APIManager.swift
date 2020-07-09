@@ -18,14 +18,30 @@ class APIManager{
             debugPrint(response)
             switch response.result{
             case .success(let data):
-                do{
+                do {
                     let jsonData = try JSONSerialization.jsonObject(with: data!, options: [])
                     print(jsonData)
-                }catch{
-                }
+                } catch {}
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
+    func login(login: LoginModel) {
+        let headers: HTTPHeaders = [.contentType("application/json") /*, .authorization(bearerToken: )*/ ]
+        AF.request("\(login_url)", method: .post, parameters: login, encoder: JSONParameterEncoder.default, headers: headers).response { response in
+            debugPrint(response)
+            switch response.result {
+            case .success(let data):
+                do {
+                    let jsonData = try JSONSerialization.jsonObject(with: data!, options: [])
+                    print(jsonData)
+                } catch {}
             case .failure(let error):
                 print(error.localizedDescription)
             }
         }
     }
 }
+

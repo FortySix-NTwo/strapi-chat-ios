@@ -78,16 +78,16 @@ class RegistrationController: UIViewController {
     
     @objc func textChangedListener(sender: UITextField){
         if sender == emailTextField{
-            viewModel.email = sender.text
-        } else if sender == userNameTextField{
-            viewModel.user = sender.text
-        } else if sender == fullNameTextField{
-            viewModel.name = sender.text
-        } else if sender == passwordTextField{
-            viewModel.password = sender.text
-        } else if sender == passwordConfirmTextField{
-            viewModel.confirm = sender.text
-        }
+           viewModel.email = sender.text
+       } else if sender == userNameTextField{
+           viewModel.user = sender.text
+       } else if sender == fullNameTextField{
+           viewModel.name = sender.text
+       } else if sender == passwordTextField{
+           viewModel.password = sender.text
+       } else if sender == passwordConfirmTextField{
+           viewModel.confirm = sender.text
+       }
         validationHandler()
     }
 
@@ -170,7 +170,6 @@ extension RegistrationController: UIImagePickerControllerDelegate, UINavigationC
 // MARK: @ProtocolExtensions
 
 extension RegistrationController: AuthenticationProtocol {
-    
     func validationHandler() {
         if viewModel.isValid {
             signUpButtn.isEnabled = true
