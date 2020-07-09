@@ -14,7 +14,7 @@ class APIManager{
     
     func register(register: RegistrationModel) {
         let headers: HTTPHeaders = [.contentType("application/json")]
-        AF.request("http://localhost:1337/auth/local/register", method: .post, parameters: register, encoder: JSONParameterEncoder.default, headers: headers).response{ response in
+        AF.request("\(register_url)", method: .post, parameters: register, encoder: JSONParameterEncoder.default, headers: headers).response{ response in
             debugPrint(response)
             switch response.result{
             case .success(let data):
@@ -22,7 +22,6 @@ class APIManager{
                     let json = try JSONSerialization.jsonObject(with: data!, options: [])
                     print(json)
                 }catch{
-                    
                 }
             case .failure(let error):
                 print(error.localizedDescription)

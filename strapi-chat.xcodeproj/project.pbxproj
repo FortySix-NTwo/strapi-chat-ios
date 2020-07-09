@@ -24,6 +24,7 @@
 		086B29B224B77A28003A2277 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086B29B124B77A28003A2277 /* APIManager.swift */; };
 		086B29B524B781B7003A2277 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 086B29B424B781B7003A2277 /* Alamofire */; };
 		086B29B924B789E8003A2277 /* RegistrationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086B29B824B789E8003A2277 /* RegistrationModel.swift */; };
+		086B29BC24B793D1003A2277 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086B29BB24B793D1003A2277 /* Constants.swift */; };
 		08DCE0CC24B6FD6B0017B0D2 /* ColorGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCE0CB24B6FD6B0017B0D2 /* ColorGradient.swift */; };
 		08DCE0CE24B710830017B0D2 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCE0CD24B710830017B0D2 /* AuthButton.swift */; };
 		08DCE0D024B714D20017B0D2 /* AuthFooterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCE0CF24B714D20017B0D2 /* AuthFooterButton.swift */; };
@@ -52,6 +53,8 @@
 		086B29AF24B7662B003A2277 /* JWT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWT.swift; sourceTree = "<group>"; };
 		086B29B124B77A28003A2277 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		086B29B824B789E8003A2277 /* RegistrationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationModel.swift; sourceTree = "<group>"; };
+		086B29BB24B793D1003A2277 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		086B29BD24B79655003A2277 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		08DCE0CB24B6FD6B0017B0D2 /* ColorGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGradient.swift; sourceTree = "<group>"; };
 		08DCE0CD24B710830017B0D2 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
 		08DCE0CF24B714D20017B0D2 /* AuthFooterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFooterButton.swift; sourceTree = "<group>"; };
@@ -78,6 +81,7 @@
 		0860C4CC24B5B64B0000972B = {
 			isa = PBXGroup;
 			children = (
+				086B29BD24B79655003A2277 /* README.md */,
 				0860C4D724B5B64B0000972B /* strapi-chat */,
 				0860C4D624B5B64B0000972B /* Products */,
 			);
@@ -94,6 +98,7 @@
 		0860C4D724B5B64B0000972B /* strapi-chat */ = {
 			isa = PBXGroup;
 			children = (
+				086B29BA24B793AF003A2277 /* Helpers */,
 				0860C4F124B5B6760000972B /* Model */,
 				0860C4F024B5B6740000972B /* View */,
 				0860C4EF24B5B6710000972B /* ViewModel */,
@@ -173,6 +178,14 @@
 				08DCE0DB24B73F060017B0D2 /* AuthenticationProtocol.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		086B29BA24B793AF003A2277 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				086B29BB24B793D1003A2277 /* Constants.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		08DCE0D124B71D090017B0D2 /* Authentication */ = {
@@ -284,6 +297,7 @@
 				0860C4F824B5C0F10000972B /* RegiistrationController.swift in Sources */,
 				08DCE0D324B721400017B0D2 /* LoginViewModel.swift in Sources */,
 				086B29B224B77A28003A2277 /* APIManager.swift in Sources */,
+				086B29BC24B793D1003A2277 /* Constants.swift in Sources */,
 				08DCE0DA24B739840017B0D2 /* ValidationProtocol.swift in Sources */,
 				086B29B024B7662B003A2277 /* JWT.swift in Sources */,
 				0860C4F624B5C0DC0000972B /* LoginController.swift in Sources */,
