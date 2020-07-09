@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,11 @@
 		0860C4FA24B5C4F80000972B /* UILayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0860C4F924B5C4F80000972B /* UILayout.swift */; };
 		0860C4FC24B5E3740000972B /* InputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0860C4FB24B5E3740000972B /* InputContainerView.swift */; };
 		0860C4FE24B5E9510000972B /* InputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0860C4FD24B5E9510000972B /* InputTextField.swift */; };
+		086B29AE24B765BE003A2277 /* SwiftJWT in Frameworks */ = {isa = PBXBuildFile; productRef = 086B29AD24B765BE003A2277 /* SwiftJWT */; };
+		086B29B024B7662B003A2277 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086B29AF24B7662B003A2277 /* JWT.swift */; };
+		086B29B224B77A28003A2277 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086B29B124B77A28003A2277 /* APIManager.swift */; };
+		086B29B524B781B7003A2277 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 086B29B424B781B7003A2277 /* Alamofire */; };
+		086B29B924B789E8003A2277 /* RegistrationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086B29B824B789E8003A2277 /* RegistrationModel.swift */; };
 		08DCE0CC24B6FD6B0017B0D2 /* ColorGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCE0CB24B6FD6B0017B0D2 /* ColorGradient.swift */; };
 		08DCE0CE24B710830017B0D2 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCE0CD24B710830017B0D2 /* AuthButton.swift */; };
 		08DCE0D024B714D20017B0D2 /* AuthFooterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCE0CF24B714D20017B0D2 /* AuthFooterButton.swift */; };
@@ -44,6 +49,9 @@
 		0860C4F924B5C4F80000972B /* UILayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILayout.swift; sourceTree = "<group>"; };
 		0860C4FB24B5E3740000972B /* InputContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputContainerView.swift; sourceTree = "<group>"; };
 		0860C4FD24B5E9510000972B /* InputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextField.swift; sourceTree = "<group>"; };
+		086B29AF24B7662B003A2277 /* JWT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWT.swift; sourceTree = "<group>"; };
+		086B29B124B77A28003A2277 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		086B29B824B789E8003A2277 /* RegistrationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationModel.swift; sourceTree = "<group>"; };
 		08DCE0CB24B6FD6B0017B0D2 /* ColorGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGradient.swift; sourceTree = "<group>"; };
 		08DCE0CD24B710830017B0D2 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
 		08DCE0CF24B714D20017B0D2 /* AuthFooterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFooterButton.swift; sourceTree = "<group>"; };
@@ -59,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				086B29AE24B765BE003A2277 /* SwiftJWT in Frameworks */,
+				086B29B524B781B7003A2277 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +123,8 @@
 		0860C4ED24B5B66C0000972B /* API */ = {
 			isa = PBXGroup;
 			children = (
+				086B29AF24B7662B003A2277 /* JWT.swift */,
+				086B29B124B77A28003A2277 /* APIManager.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -148,6 +160,7 @@
 		0860C4F124B5B6760000972B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				086B29B824B789E8003A2277 /* RegistrationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -197,6 +210,10 @@
 			dependencies = (
 			);
 			name = "strapi-chat";
+			packageProductDependencies = (
+				086B29AD24B765BE003A2277 /* SwiftJWT */,
+				086B29B424B781B7003A2277 /* Alamofire */,
+			);
 			productName = "strapi-chat";
 			productReference = 0860C4D524B5B64B0000972B /* strapi-chat.app */;
 			productType = "com.apple.product-type.application";
@@ -225,6 +242,10 @@
 				Base,
 			);
 			mainGroup = 0860C4CC24B5B64B0000972B;
+			packageReferences = (
+				086B29AC24B765BE003A2277 /* XCRemoteSwiftPackageReference "Swift-JWT" */,
+				086B29B324B781B7003A2277 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 0860C4D624B5B64B0000972B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -262,8 +283,11 @@
 				08DCE0CE24B710830017B0D2 /* AuthButton.swift in Sources */,
 				0860C4F824B5C0F10000972B /* RegiistrationController.swift in Sources */,
 				08DCE0D324B721400017B0D2 /* LoginViewModel.swift in Sources */,
+				086B29B224B77A28003A2277 /* APIManager.swift in Sources */,
 				08DCE0DA24B739840017B0D2 /* ValidationProtocol.swift in Sources */,
+				086B29B024B7662B003A2277 /* JWT.swift in Sources */,
 				0860C4F624B5C0DC0000972B /* LoginController.swift in Sources */,
+				086B29B924B789E8003A2277 /* RegistrationModel.swift in Sources */,
 				08DCE0D724B738070017B0D2 /* RegistrationViewModel.swift in Sources */,
 				0860C4FE24B5E9510000972B /* InputTextField.swift in Sources */,
 				0860C4FA24B5C4F80000972B /* UILayout.swift in Sources */,
@@ -466,6 +490,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		086B29AC24B765BE003A2277 /* XCRemoteSwiftPackageReference "Swift-JWT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/IBM-Swift/Swift-JWT.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.6.1;
+			};
+		};
+		086B29B324B781B7003A2277 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		086B29AD24B765BE003A2277 /* SwiftJWT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 086B29AC24B765BE003A2277 /* XCRemoteSwiftPackageReference "Swift-JWT" */;
+			productName = SwiftJWT;
+		};
+		086B29B424B781B7003A2277 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 086B29B324B781B7003A2277 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0860C4CD24B5B64B0000972B /* Project object */;
 }

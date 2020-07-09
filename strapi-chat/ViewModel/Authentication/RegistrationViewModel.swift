@@ -16,6 +16,10 @@ struct RegistrationViewModel: ValidationProtocol {
     var confirm: String?
     
     var isValid: Bool {
+        if confirm != password{
+            return false
+        }
+        
         return
             user?.isEmpty == false
             && name?.isEmpty == false

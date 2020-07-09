@@ -92,7 +92,12 @@ class RegistrationController: UIViewController {
     }
 
     @objc func signUpListener() {
-        print("Signed In")
+        guard let fullName = fullNameTextField.text else { return }
+        guard let userName = userNameTextField.text else { return }
+        guard let email = emailTextField.text else { return }
+        guard let password = passwordTextField.text else { return }
+        let newUser = RegistrationModel(name: fullName, username: userName, email: email, password: password)
+        APIManager.instance.register(register: newUser)
     }
     
     //  MARK: @Handlers
