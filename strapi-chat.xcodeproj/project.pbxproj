@@ -13,6 +13,20 @@
 		0860C4E024B5B64B0000972B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0860C4DE24B5B64B0000972B /* Main.storyboard */; };
 		0860C4E224B5B64C0000972B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0860C4E124B5B64C0000972B /* Assets.xcassets */; };
 		0860C4E524B5B64C0000972B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0860C4E324B5B64C0000972B /* LaunchScreen.storyboard */; };
+		0860C4F324B5B6BB0000972B /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0860C4F224B5B6BB0000972B /* ConversationsController.swift */; };
+		0860C4F624B5C0DC0000972B /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0860C4F524B5C0DC0000972B /* LoginController.swift */; };
+		0860C4F824B5C0F10000972B /* RegiistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0860C4F724B5C0F10000972B /* RegiistrationController.swift */; };
+		0860C4FA24B5C4F80000972B /* UILayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0860C4F924B5C4F80000972B /* UILayout.swift */; };
+		0860C4FC24B5E3740000972B /* InputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0860C4FB24B5E3740000972B /* InputContainerView.swift */; };
+		0860C4FE24B5E9510000972B /* InputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0860C4FD24B5E9510000972B /* InputTextField.swift */; };
+		08DCE0CC24B6FD6B0017B0D2 /* ColorGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCE0CB24B6FD6B0017B0D2 /* ColorGradient.swift */; };
+		08DCE0CE24B710830017B0D2 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCE0CD24B710830017B0D2 /* AuthButton.swift */; };
+		08DCE0D024B714D20017B0D2 /* AuthFooterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCE0CF24B714D20017B0D2 /* AuthFooterButton.swift */; };
+		08DCE0D324B721400017B0D2 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCE0D224B721400017B0D2 /* LoginViewModel.swift */; };
+		08DCE0D524B734D10017B0D2 /* AvatarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCE0D424B734D10017B0D2 /* AvatarButton.swift */; };
+		08DCE0D724B738070017B0D2 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCE0D624B738070017B0D2 /* RegistrationViewModel.swift */; };
+		08DCE0DA24B739840017B0D2 /* ValidationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCE0D924B739840017B0D2 /* ValidationProtocol.swift */; };
+		08DCE0DC24B73F060017B0D2 /* AuthenticationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCE0DB24B73F060017B0D2 /* AuthenticationProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,20 @@
 		0860C4E124B5B64C0000972B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0860C4E424B5B64C0000972B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0860C4E624B5B64C0000972B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0860C4F224B5B6BB0000972B /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
+		0860C4F524B5C0DC0000972B /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		0860C4F724B5C0F10000972B /* RegiistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegiistrationController.swift; sourceTree = "<group>"; };
+		0860C4F924B5C4F80000972B /* UILayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILayout.swift; sourceTree = "<group>"; };
+		0860C4FB24B5E3740000972B /* InputContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputContainerView.swift; sourceTree = "<group>"; };
+		0860C4FD24B5E9510000972B /* InputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextField.swift; sourceTree = "<group>"; };
+		08DCE0CB24B6FD6B0017B0D2 /* ColorGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGradient.swift; sourceTree = "<group>"; };
+		08DCE0CD24B710830017B0D2 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
+		08DCE0CF24B714D20017B0D2 /* AuthFooterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFooterButton.swift; sourceTree = "<group>"; };
+		08DCE0D224B721400017B0D2 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		08DCE0D424B734D10017B0D2 /* AvatarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarButton.swift; sourceTree = "<group>"; };
+		08DCE0D624B738070017B0D2 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		08DCE0D924B739840017B0D2 /* ValidationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationProtocol.swift; sourceTree = "<group>"; };
+		08DCE0DB24B73F060017B0D2 /* AuthenticationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,12 @@
 		0860C4D724B5B64B0000972B /* strapi-chat */ = {
 			isa = PBXGroup;
 			children = (
+				0860C4F124B5B6760000972B /* Model */,
+				0860C4F024B5B6740000972B /* View */,
+				0860C4EF24B5B6710000972B /* ViewModel */,
+				0860C4EE24B5B66F0000972B /* Controller */,
+				0860C4ED24B5B66C0000972B /* API */,
+				0860C4EC24B5B65F0000972B /* Extensions */,
 				0860C4D824B5B64B0000972B /* AppDelegate.swift */,
 				0860C4DA24B5B64B0000972B /* SceneDelegate.swift */,
 				0860C4DC24B5B64B0000972B /* ViewController.swift */,
@@ -65,6 +99,86 @@
 				0860C4E624B5B64C0000972B /* Info.plist */,
 			);
 			path = "strapi-chat";
+			sourceTree = "<group>";
+		};
+		0860C4EC24B5B65F0000972B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0860C4F924B5C4F80000972B /* UILayout.swift */,
+				08DCE0CB24B6FD6B0017B0D2 /* ColorGradient.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0860C4ED24B5B66C0000972B /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		0860C4EE24B5B66F0000972B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0860C4F424B5C0B40000972B /* Authentication */,
+				0860C4F224B5B6BB0000972B /* ConversationsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0860C4EF24B5B6710000972B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				08DCE0D824B738B70017B0D2 /* Authentication */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0860C4F024B5B6740000972B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08DCE0D124B71D090017B0D2 /* Authentication */,
+				0860C4FB24B5E3740000972B /* InputContainerView.swift */,
+				0860C4FD24B5E9510000972B /* InputTextField.swift */,
+				08DCE0D424B734D10017B0D2 /* AvatarButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0860C4F124B5B6760000972B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0860C4F424B5C0B40000972B /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				0860C4F524B5C0DC0000972B /* LoginController.swift */,
+				0860C4F724B5C0F10000972B /* RegiistrationController.swift */,
+				08DCE0DB24B73F060017B0D2 /* AuthenticationProtocol.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		08DCE0D124B71D090017B0D2 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				08DCE0CD24B710830017B0D2 /* AuthButton.swift */,
+				08DCE0CF24B714D20017B0D2 /* AuthFooterButton.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		08DCE0D824B738B70017B0D2 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				08DCE0D224B721400017B0D2 /* LoginViewModel.swift */,
+				08DCE0D624B738070017B0D2 /* RegistrationViewModel.swift */,
+				08DCE0D924B739840017B0D2 /* ValidationProtocol.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +252,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08DCE0D024B714D20017B0D2 /* AuthFooterButton.swift in Sources */,
 				0860C4DD24B5B64B0000972B /* ViewController.swift in Sources */,
+				0860C4FC24B5E3740000972B /* InputContainerView.swift in Sources */,
 				0860C4D924B5B64B0000972B /* AppDelegate.swift in Sources */,
+				0860C4F324B5B6BB0000972B /* ConversationsController.swift in Sources */,
+				08DCE0DC24B73F060017B0D2 /* AuthenticationProtocol.swift in Sources */,
 				0860C4DB24B5B64B0000972B /* SceneDelegate.swift in Sources */,
+				08DCE0CE24B710830017B0D2 /* AuthButton.swift in Sources */,
+				0860C4F824B5C0F10000972B /* RegiistrationController.swift in Sources */,
+				08DCE0D324B721400017B0D2 /* LoginViewModel.swift in Sources */,
+				08DCE0DA24B739840017B0D2 /* ValidationProtocol.swift in Sources */,
+				0860C4F624B5C0DC0000972B /* LoginController.swift in Sources */,
+				08DCE0D724B738070017B0D2 /* RegistrationViewModel.swift in Sources */,
+				0860C4FE24B5E9510000972B /* InputTextField.swift in Sources */,
+				0860C4FA24B5C4F80000972B /* UILayout.swift in Sources */,
+				08DCE0D524B734D10017B0D2 /* AvatarButton.swift in Sources */,
+				08DCE0CC24B6FD6B0017B0D2 /* ColorGradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
