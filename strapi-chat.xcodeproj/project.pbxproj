@@ -34,6 +34,9 @@
 		08DCE0D724B738070017B0D2 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCE0D624B738070017B0D2 /* RegistrationViewModel.swift */; };
 		08DCE0DA24B739840017B0D2 /* ValidationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCE0D924B739840017B0D2 /* ValidationProtocol.swift */; };
 		08DCE0DC24B73F060017B0D2 /* AuthenticationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCE0DB24B73F060017B0D2 /* AuthenticationProtocol.swift */; };
+		08FC02B124B84C6B00B1E230 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FC02AF24B84C6B00B1E230 /* KeychainItemAccessibility.swift */; };
+		08FC02B224B84C6B00B1E230 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FC02B024B84C6B00B1E230 /* KeychainWrapper.swift */; };
+		08FC02B524B8521D00B1E230 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 08FC02B424B8521D00B1E230 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +68,9 @@
 		08DCE0D624B738070017B0D2 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		08DCE0D924B739840017B0D2 /* ValidationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationProtocol.swift; sourceTree = "<group>"; };
 		08DCE0DB24B73F060017B0D2 /* AuthenticationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationProtocol.swift; sourceTree = "<group>"; };
+		08FC02AF24B84C6B00B1E230 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		08FC02B024B84C6B00B1E230 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		08FC02B424B8521D00B1E230 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +192,7 @@
 		086B29BA24B793AF003A2277 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				08FC02B324B851EF00B1E230 /* KeychainWrapper */,
 				086B29BB24B793D1003A2277 /* Constants.swift */,
 			);
 			path = Helpers;
@@ -224,6 +231,16 @@
 				08DCE0D924B739840017B0D2 /* ValidationProtocol.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		08FC02B324B851EF00B1E230 /* KeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				08FC02AF24B84C6B00B1E230 /* KeychainItemAccessibility.swift */,
+				08FC02B024B84C6B00B1E230 /* KeychainWrapper.swift */,
+				08FC02B424B8521D00B1E230 /* README.md */,
+			);
+			path = KeychainWrapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +311,7 @@
 			files = (
 				0860C4E524B5B64C0000972B /* LaunchScreen.storyboard in Resources */,
 				0860C4E224B5B64C0000972B /* Assets.xcassets in Resources */,
+				08FC02B524B8521D00B1E230 /* README.md in Resources */,
 				0860C4E024B5B64B0000972B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +334,7 @@
 				08DCE0CE24B710830017B0D2 /* AuthButton.swift in Sources */,
 				0860C4F824B5C0F10000972B /* RegiistrationController.swift in Sources */,
 				08DCE0D324B721400017B0D2 /* LoginViewModel.swift in Sources */,
+				08FC02B124B84C6B00B1E230 /* KeychainItemAccessibility.swift in Sources */,
 				086B29B224B77A28003A2277 /* APIManager.swift in Sources */,
 				086B29BC24B793D1003A2277 /* Constants.swift in Sources */,
 				08DCE0DA24B739840017B0D2 /* ValidationProtocol.swift in Sources */,
@@ -325,6 +344,7 @@
 				08DCE0D724B738070017B0D2 /* RegistrationViewModel.swift in Sources */,
 				0860C4FE24B5E9510000972B /* InputTextField.swift in Sources */,
 				0860C4FA24B5C4F80000972B /* UILayout.swift in Sources */,
+				08FC02B224B84C6B00B1E230 /* KeychainWrapper.swift in Sources */,
 				08DCE0D524B734D10017B0D2 /* AvatarButton.swift in Sources */,
 				08DCE0CC24B6FD6B0017B0D2 /* ColorGradient.swift in Sources */,
 			);
