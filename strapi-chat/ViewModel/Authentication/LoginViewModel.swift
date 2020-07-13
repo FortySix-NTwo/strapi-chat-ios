@@ -9,12 +9,18 @@
 import Foundation
 
 struct LoginViewModel: ValidationProtocol {
-    var email: String?
-    var password: String?
-    
-    var isValid: Bool {
-        return
-            password?.isEmpty == false
-            && email?.isEmpty == false
-    }
+  var id: String?
+  var email: String?
+  var password: String?
+  var token: Token?
+  
+  var isValidToken: Bool {
+    return token?.userID.uuidString == id
+  }
+  
+  var isValid: Bool {
+    return
+      password?.isEmpty == false
+      && email?.isEmpty == false
+  }
 }

@@ -9,22 +9,21 @@
 import Foundation
 
 struct RegistrationViewModel: ValidationProtocol {
-    var user: String?
-    var name: String?
-    var email: String?
-    var password: String?
-    var confirm: String?
+  var user: String?
+  var name: String?
+  var email: String?
+  var password: String?
+  var confirm: String?
     
-    var isValid: Bool {
-        if confirm != password{
-            return false
-        }
+  var isValid: Bool {
+      if confirm != password{
+          return false
+      }
         
-        return
-            user?.isEmpty == false
-            && name?.isEmpty == false
-            && email?.isEmpty == false
-            && confirm?.isEmpty == false
-            && password?.isEmpty == false
+      return
+          user?.isEmpty == false
+          && name?.isEmpty == false
+          && email?.isEmpty == false
+          && password?.isEmpty == false
     }
 }

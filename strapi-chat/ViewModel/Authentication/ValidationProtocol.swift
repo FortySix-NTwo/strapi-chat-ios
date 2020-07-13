@@ -9,5 +9,5 @@
 import Foundation
 
 protocol ValidationProtocol {
-    var isValid: Bool { get }
+  var isValid: Bool { get }
 }

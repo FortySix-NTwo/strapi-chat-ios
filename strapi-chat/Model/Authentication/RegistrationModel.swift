@@ -8,9 +8,10 @@
 
 import Foundation
 
-struct RegistrationModel: Encodable {
-  let name: String
-  let username: String
-  let email: String
-  let password: String
+struct RegisterModel: Encodable {
+  var fullname: String
+  var username: String
+  var email: String
+  var password: String
 }
+
